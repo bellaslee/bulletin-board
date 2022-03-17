@@ -1,15 +1,6 @@
-# Creative Project 4 Specification
+# Bullet Board
 ## Overview
-For your fourth Creative Project, you will create your own Node.js web service available for use with AJAX and fetch. Once again, as a Creative Project, you have freedom to have more ownership in your work, as long as you meet the requirements listed below.
-
-## Ideas for CP4
-Being that this is our last Creative Project, it is also your chance to wrap up your work in CSE 154 with a final portfolio you can publish, showcasing your exploration of web programming technologies. As always, we encourage you to explore the new material covered in class, as well as related (but optional) content we may link to along the way, as long as you follow the CSE 154 Code Quality Guidelines and adhere to Academic Integrity policies. In past quarters, some students have built upon their Creative Project each week. You may choose to do a new website for each CP, or build on the existing project from previous CP's.
-
-As long as you meet the requirements outlined below, you have freedom in what kind of website you create.
-* This CP is designed to give you an opportunity to practice writing both client (JS) and server-side (Node.js)
-  code on your website. This is a great chance to think about how your project could showcase what
-  you've learned so far in web programming for your own code portfolio after the quarter ends, so
-  we encourage you to explore implementing different features of your web service!
+This project was my fourth creative project for CSE 154: Web Programming at the University of Washington. Below are the project requirements.
 
 
 ## External Requirements
