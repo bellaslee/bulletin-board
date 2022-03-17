@@ -1,0 +1,81 @@
+/*
+  Bella Lee
+  2/25/2022
+  Section AH Shriya Kurpad
+
+  Styling for the bulletin board page. The main font is Barlow. The title and heading font
+  is Shizuru. Warm, simple color scheme. Most items are centered.
+*/
+
+body {
+  background-color: bisque;
+}
+
+body, input, textarea {
+  font-family: 'Barlow', sans-serif;
+}
+
+article, form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+article {
+  background-color: rgb(255, 251, 248);
+  border-radius: 15px;
+  align-items: center;
+  width: 35%;
+  padding: 30px;
+  margin: 30px;
+}
+
+form {
+  align-items: flex-start;
+}
+
+label, button {
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+aside {
+  font-size: x-small;
+}
+
+section, #posts {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  width: 90%;
+  margin: 50px;
+}
+
+#make-post {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#posts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1, #prompt, footer {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Shizuru', cursive;
+}
+
+.hidden {
+  visibility: hidden;
+}

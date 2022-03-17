@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+***
+Bella Lee
+2/25/2022
+Section AH Shriya Kurpad
+
+The index.html page for creative project 4. This page contains a bulletin board
+with a message entry form at the top. Users can input the title of their message,
+their message, and, optionally, their name. A password is required to submit the
+message to prevent spam and trolling. If the user gets stuck thinking of what to write,
+they can randomly generate a journal prompt.
+***
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Shizuru&display=swap"
+      rel="stylesheet">
+    <title>Bulletin Board</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Bulletin Board</h1>
+    </header>
+    <main>
+      <section>
+        <article id="make-post">
+          <h2>Write something!</h2>
+          <button id="prompt-btn">Generate a prompt</button>
+          <p id="prompt" class="hidden"></p>
+          <form id="input-form">
+            <label for="title">Title: </label>
+            <input name="title" id="title" type="text" required>
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" rows="10" minlength="15"
+              required></textarea>
+            <label for="name">Your name: </label>
+            <input name="name" id="name" type="text">
+            <label for="pwd">Password: </label>
+            <aside>(hint: it's the course name with no spaces or
+              capitalization)</aside>
+            <input name="pwd" id="pwd" type="password" required>
+            <button id="submit-btn">Send!</button>
+          </form>
+          <p id="error-msg" class="hidden"></p>
+        </article>
+        <span id="posts"></span>
+      </section>
+    </main>
+    <footer>
+      &copy; 2022 Bella Lee. Journal prompts by
+      <a href="https://www.creative-writing-now.com/journal-prompts.html">Creative Writing Now</a>.
+    </footer>
+  </body>
+</html>
