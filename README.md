@@ -73,15 +73,3 @@ and detailed in the [CSE 154 Code Quality Guidelines](https://courses.cs.washing
 * Document your Node.js functions using the same JSDoc requirements as your client-side JS file (e.g. `@param` and `@return`).
 * Briefly document any request-handling functions (e.g. `app.get`, `app.post`, etc.) with comments about the endpoint. If you use anonymous functions for your callback, these comments should be more descriptive. If you use named functions for your callback, you can rely more on the named function JSDoc.
 * Include a  description of your Node.js web service and the parameters/responses that would be important for you/other developers to understand the program. See the Code Quality Guide for an example. Use your `APIDOC.md` for a more descriptive public documentation of your API (used by clients).
-
-## Grading
-Grading for Creative Projects is lighter with the chance to explore and learn without the overhead of having to match strict external requirements. Our goal is to give you feedback, particularly on the internal requirements and documentation, so you can incorporate this feedback in your homework assignments which will be worth more towards your final grade.
-
-This CP will be out of 10 points and will likely (subject to adjustments) be distributed as:
-
-- External Correctness (~50%)
-- Internal Correctness (~40%)
-- Documentation (~10%)
-
-## Academic Integrity
-Creative Projects are unique in that students may look for outside resources for inspiration or assistance in accomplishing their goals. On occasion students may wish to use portions of sample code that has been obtained on our course website or others. In order to avoid academic misconduct for a Creative Project in CSE 154 you must include school appropriate content and follow the Academic Integrity/Collaboration Policies outlined in more detail on the syllabus. If we find inappropriate content or plagiarism in CPs **you will be ineligible for any points on the CP**. Ask the instructor if you're unsure if your work is cited appropriately. Any external sources like images should be cited where used in the source code or (ideally) visible in a page footer. Refer to this [copyright example](https://courses.cs.washington.edu/courses/cse154/22wi/resources/assets/code-examples/copyright-examples/copyrightexample2.html) page for how to cite images from different sources.
